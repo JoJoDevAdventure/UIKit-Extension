@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import UIKit
+
+public struct UIElement {
+    var image: UIImage
+    var name: String
+    var viewController: UIViewController
+}
